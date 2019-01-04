@@ -113,7 +113,7 @@ echo Html::tag('br', '');
 if ($question->survey_question_show_descr) {
     echo $form->field($question, "[{$question->survey_question_id}]survey_question_descr")->widget(Widget::class, [
         'settings' => [
-            'lang' => 'ru',
+            'lang' => 'en',
             'minHeight' => 200,
             'toolbarFixed' => false,
             'imageManagerJson' => Url::toRoute(['question/images-get']),
